@@ -111,8 +111,8 @@
 		37E204C41B3D16330017CE84 = {
 			isa = PBXGroup;
 			children = (
-				D14516CC2576FA340086E9C0 /* Sources */,
-				D14516CD2576FA420086E9C0 /* Tests */,
+				D1635DE52576FCE9001220F9 /* Sources */,
+				D1635DE62576FD1E001220F9 /* Tests */,
 				37E204CF1B3D16330017CE84 /* Products */,
 				F918175B0D65709DCD3E8374 /* Pods */,
 				BB5D0B934E39B47A21F73C55 /* Frameworks */,
@@ -214,21 +214,21 @@
 			path = include;
 			sourceTree = "<group>";
 		};
-		D14516CC2576FA340086E9C0 /* Sources */ = {
+		D1635DE52576FCE9001220F9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				37E204D01B3D16330017CE84 /* PDTSimpleCalendar */,
 			);
-			name = Sources;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		D14516CD2576FA420086E9C0 /* Tests */ = {
+		D1635DE62576FD1E001220F9 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				89875F4A1B755A5400CE4345 /* PDTSimpleCalendarTests */,
 				897EED721B756BB300AE9049 /* PDTSimpleCalendarTestsHostApp */,
 			);
-			name = Tests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		F918175B0D65709DCD3E8374 /* Pods */ = {
