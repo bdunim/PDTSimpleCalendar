@@ -13,7 +13,7 @@ let package = Package(
     .target(
       name: "PDTSimpleCalendar",
       path: "PDTSimpleCalendar",
-      exclude: ["PDTSimpleCalendar-Prefix.pch", "Info.plist"],
+      exclude: ["Info.plist"],
       publicHeadersPath: "."
     ),
     .testTarget(

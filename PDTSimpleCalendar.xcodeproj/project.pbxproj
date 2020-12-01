@@ -28,6 +28,7 @@
 		89875F4F1B755A5400CE4345 /* PDTSimpleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E204CE1B3D16330017CE84 /* PDTSimpleCalendar.framework */; };
 		89875F551B755A9600CE4345 /* PDTSimpleCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89875F4D1B755A5400CE4345 /* PDTSimpleCalendarTests.m */; };
 		899618041B78EFEF0094E8AB /* PDTSimpleCalendarViewCellSnapshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 899618031B78EFEF0094E8AB /* PDTSimpleCalendarViewCellSnapshotTests.m */; };
+		D17954262576E9C10063F9B0 /* PDTSimpleCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = D17954252576E9C10063F9B0 /* PDTSimpleCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		89875F4D1B755A5400CE4345 /* PDTSimpleCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarTests.m; sourceTree = "<group>"; };
 		899618031B78EFEF0094E8AB /* PDTSimpleCalendarViewCellSnapshotTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarViewCellSnapshotTests.m; sourceTree = "<group>"; };
 		B616135EB8DD4615E3ABC70D /* Pods-PDTSimpleCalendarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDTSimpleCalendarTests.release.xcconfig"; path = "Target Support Files/Pods-PDTSimpleCalendarTests/Pods-PDTSimpleCalendarTests.release.xcconfig"; sourceTree = "<group>"; };
+		D17954252576E9C10063F9B0 /* PDTSimpleCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDTSimpleCalendar.h; path = ../../../.Trash/PDTSimpleCalendar.h; sourceTree = "<group>"; };
 		E9FF3C2F9E294895EEE43482 /* Pods_PDTSimpleCalendarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDTSimpleCalendarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -145,6 +147,7 @@
 		37E204D11B3D16330017CE84 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D17954252576E9C10063F9B0 /* PDTSimpleCalendar.h */,
 				37E204D21B3D16330017CE84 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -231,6 +234,7 @@
 				37E204F81B3D16F20017CE84 /* PDTSimpleCalendarViewFlowLayout.h in Headers */,
 				37E204F41B3D16F20017CE84 /* PDTSimpleCalendarViewCell.h in Headers */,
 				37E204FA1B3D16F20017CE84 /* PDTSimpleCalendarViewHeader.h in Headers */,
+				D17954262576E9C10063F9B0 /* PDTSimpleCalendar.h in Headers */,
 				1B4E30FF1B6FBA6000BF77A7 /* PDTSimpleCalendarViewWeekdayHeader.h in Headers */,
 				37E204F61B3D16F20017CE84 /* PDTSimpleCalendarViewController.h in Headers */,
 			);
