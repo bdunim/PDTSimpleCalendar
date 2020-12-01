@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1B4E30FF1B6FBA6000BF77A7 /* PDTSimpleCalendarViewWeekdayHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4E30FD1B6FBA6000BF77A7 /* PDTSimpleCalendarViewWeekdayHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B4E31001B6FBA6000BF77A7 /* PDTSimpleCalendarViewWeekdayHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E30FE1B6FBA6000BF77A7 /* PDTSimpleCalendarViewWeekdayHeader.m */; };
-		37E204F31B3D16F20017CE84 /* PDTSimpleCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E204EA1B3D16F20017CE84 /* PDTSimpleCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37E204F41B3D16F20017CE84 /* PDTSimpleCalendarViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E204EB1B3D16F20017CE84 /* PDTSimpleCalendarViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37E204F51B3D16F20017CE84 /* PDTSimpleCalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E204EC1B3D16F20017CE84 /* PDTSimpleCalendarViewCell.m */; };
 		37E204F61B3D16F20017CE84 /* PDTSimpleCalendarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E204ED1B3D16F20017CE84 /* PDTSimpleCalendarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,7 +28,6 @@
 		89875F4F1B755A5400CE4345 /* PDTSimpleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E204CE1B3D16330017CE84 /* PDTSimpleCalendar.framework */; };
 		89875F551B755A9600CE4345 /* PDTSimpleCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89875F4D1B755A5400CE4345 /* PDTSimpleCalendarTests.m */; };
 		899618041B78EFEF0094E8AB /* PDTSimpleCalendarViewCellSnapshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 899618031B78EFEF0094E8AB /* PDTSimpleCalendarViewCellSnapshotTests.m */; };
-		D1EC52382576C4EE00681830 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC52372576C4DF00681830 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +53,6 @@
 		1E696ABD7478953F517B56D9 /* Pods-PDTSimpleCalendarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDTSimpleCalendarTests.debug.xcconfig"; path = "Target Support Files/Pods-PDTSimpleCalendarTests/Pods-PDTSimpleCalendarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		37E204CE1B3D16330017CE84 /* PDTSimpleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PDTSimpleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E204D21B3D16330017CE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37E204EA1B3D16F20017CE84 /* PDTSimpleCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTSimpleCalendar.h; sourceTree = "<group>"; };
 		37E204EB1B3D16F20017CE84 /* PDTSimpleCalendarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTSimpleCalendarViewCell.h; sourceTree = "<group>"; };
 		37E204EC1B3D16F20017CE84 /* PDTSimpleCalendarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarViewCell.m; sourceTree = "<group>"; };
 		37E204ED1B3D16F20017CE84 /* PDTSimpleCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTSimpleCalendarViewController.h; sourceTree = "<group>"; };
@@ -79,7 +76,6 @@
 		89875F4D1B755A5400CE4345 /* PDTSimpleCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarTests.m; sourceTree = "<group>"; };
 		899618031B78EFEF0094E8AB /* PDTSimpleCalendarViewCellSnapshotTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarViewCellSnapshotTests.m; sourceTree = "<group>"; };
 		B616135EB8DD4615E3ABC70D /* Pods-PDTSimpleCalendarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDTSimpleCalendarTests.release.xcconfig"; path = "Target Support Files/Pods-PDTSimpleCalendarTests/Pods-PDTSimpleCalendarTests.release.xcconfig"; sourceTree = "<group>"; };
-		D1EC52372576C4DF00681830 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		E9FF3C2F9E294895EEE43482 /* Pods_PDTSimpleCalendarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDTSimpleCalendarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,7 +109,6 @@
 		37E204C41B3D16330017CE84 = {
 			isa = PBXGroup;
 			children = (
-				D1EC52372576C4DF00681830 /* Package.swift */,
 				37E204D01B3D16330017CE84 /* PDTSimpleCalendar */,
 				89875F4A1B755A5400CE4345 /* PDTSimpleCalendarTests */,
 				897EED721B756BB300AE9049 /* PDTSimpleCalendarTestsHostApp */,
@@ -211,7 +206,6 @@
 				37E204EF1B3D16F20017CE84 /* PDTSimpleCalendarViewFlowLayout.h */,
 				37E204F11B3D16F20017CE84 /* PDTSimpleCalendarViewHeader.h */,
 				1B4E30FD1B6FBA6000BF77A7 /* PDTSimpleCalendarViewWeekdayHeader.h */,
-				37E204EA1B3D16F20017CE84 /* PDTSimpleCalendar.h */,
 				37E204ED1B3D16F20017CE84 /* PDTSimpleCalendarViewController.h */,
 				37E204EB1B3D16F20017CE84 /* PDTSimpleCalendarViewCell.h */,
 			);
@@ -234,7 +228,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37E204F31B3D16F20017CE84 /* PDTSimpleCalendar.h in Headers */,
 				37E204F81B3D16F20017CE84 /* PDTSimpleCalendarViewFlowLayout.h in Headers */,
 				37E204F41B3D16F20017CE84 /* PDTSimpleCalendarViewCell.h in Headers */,
 				37E204FA1B3D16F20017CE84 /* PDTSimpleCalendarViewHeader.h in Headers */,
@@ -438,7 +431,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1EC52382576C4EE00681830 /* Package.swift in Sources */,
 				894BD5311B77AA4700DFC64A /* PDTSimpleCalendarViewHeaderSnapshotTests.m in Sources */,
 				894BD52F1B77A2EE00DFC64A /* PDTSimpleCalendarViewControllerSnapshotTests.m in Sources */,
 				89875F551B755A9600CE4345 /* PDTSimpleCalendarTests.m in Sources */,
@@ -496,7 +488,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -555,7 +547,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

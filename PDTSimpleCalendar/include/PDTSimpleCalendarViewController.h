@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <PDTSimpleCalendarViewWeekdayHeader.h>
+#import "PDTSimpleCalendarViewWeekdayHeader.h"
 
 @protocol PDTSimpleCalendarViewDelegate;
 
