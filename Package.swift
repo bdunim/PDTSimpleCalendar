@@ -20,7 +20,7 @@ let package = Package(
         path: "PDTSimpleCalendarTestsHostApp"),
     .testTarget(
         name: "PDTSimpleCalendarTests",
-        path: "PDTSimpleCalendarTests",
-        dependencies: ["PDTSimpleCalendar", "PDTSimpleCalendarTestsHostApp"])
+        dependencies: ["PDTSimpleCalendar", "PDTSimpleCalendarTestsHostApp"],
+        path: "PDTSimpleCalendarTests")
   ]
 )
