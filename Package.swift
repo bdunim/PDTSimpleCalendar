@@ -16,9 +16,11 @@ let package = Package(
       exclude: ["PDTSimpleCalendar-Prefix.pch"],
       publicHeadersPath: "."),
     .testTarget(
-        name: "PDTSimpleCalendarTestsHostApp"),
+        name: "PDTSimpleCalendarTestsHostApp",
+        path: "PDTSimpleCalendarTestsHostApp")
     .testTarget(
         name: "PDTSimpleCalendarTests",
+        path: "PDTSimpleCalendarTests",
         dependencies: ["PDTSimpleCalendar", "PDTSimpleCalendarTestsHostApp"])
   ]
 )
