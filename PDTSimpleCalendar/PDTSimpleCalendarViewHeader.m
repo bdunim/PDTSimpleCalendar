@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Producteev. All rights reserved.
 //
 
-#import "PDTSimpleCalendarViewHeader.h"
+#import <PDTSimpleCalendar/PDTSimpleCalendarViewHeader.h>
 
 const CGFloat PDTSimpleCalendarHeaderTextSize = 12.0f;
 

@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 MorningCall. All rights reserved.
 //
 
-#import "PDTSimpleCalendarViewWeekdayHeader.h"
+#import <PDTSimpleCalendar/PDTSimpleCalendarViewWeekdayHeader.h>
 
 const CGFloat PDTSimpleCalendarWeekdayHeaderSize = 12.0f;
 const CGFloat PDTSimpleCalendarWeekdayHeaderHeight = 20.0f;

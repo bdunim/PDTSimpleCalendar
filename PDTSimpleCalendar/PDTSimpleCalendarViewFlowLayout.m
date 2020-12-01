@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Producteev. All rights reserved.
 //
 
-#import "PDTSimpleCalendarViewFlowLayout.h"
+#import <PDTSimpleCalendar/PDTSimpleCalendarViewFlowLayout.h>
 
 const CGFloat PDTSimpleCalendarFlowLayoutMinInterItemSpacing = 0.0f;
 const CGFloat PDTSimpleCalendarFlowLayoutMinLineSpacing = 0.0f;

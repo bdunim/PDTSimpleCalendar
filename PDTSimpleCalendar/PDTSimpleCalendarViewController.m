@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 Producteev. All rights reserved.
 //
 
-#import "PDTSimpleCalendarViewController.h"
+#import <PDTSimpleCalendar/PDTSimpleCalendarViewController.h>
 
-#import "PDTSimpleCalendarViewFlowLayout.h"
-#import "PDTSimpleCalendarViewCell.h"
-#import "PDTSimpleCalendarViewHeader.h"
+#import <PDTSimpleCalendar/PDTSimpleCalendarViewFlowLayout.h>
+#import <PDTSimpleCalendar/PDTSimpleCalendarViewCell.h>
+#import <PDTSimpleCalendar/PDTSimpleCalendarViewHeader.h>
 
 
 const CGFloat PDTSimpleCalendarOverlaySize = 14.0f;
