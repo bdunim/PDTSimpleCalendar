@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Producteev. All rights reserved.
 //
 
-#import "include/PDTSimpleCalendarViewCell.h"
+#import <PDTSimpleCalendar/PDTSimpleCalendarViewCell.h>
 
 const CGFloat PDTSimpleCalendarCircleSize = 32.0f;
 
