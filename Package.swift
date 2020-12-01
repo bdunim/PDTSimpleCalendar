@@ -17,7 +17,7 @@ let package = Package(
       publicHeadersPath: "."),
     .testTarget(
         name: "PDTSimpleCalendarTestsHostApp",
-        path: "PDTSimpleCalendarTestsHostApp")
+        path: "PDTSimpleCalendarTestsHostApp"),
     .testTarget(
         name: "PDTSimpleCalendarTests",
         path: "PDTSimpleCalendarTests",
