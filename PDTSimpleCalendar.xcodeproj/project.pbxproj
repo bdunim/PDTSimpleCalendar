@@ -111,9 +111,8 @@
 		37E204C41B3D16330017CE84 = {
 			isa = PBXGroup;
 			children = (
-				37E204D01B3D16330017CE84 /* PDTSimpleCalendar */,
-				89875F4A1B755A5400CE4345 /* PDTSimpleCalendarTests */,
-				897EED721B756BB300AE9049 /* PDTSimpleCalendarTestsHostApp */,
+				D14516CC2576FA340086E9C0 /* Sources */,
+				D14516CD2576FA420086E9C0 /* Tests */,
 				37E204CF1B3D16330017CE84 /* Products */,
 				F918175B0D65709DCD3E8374 /* Pods */,
 				BB5D0B934E39B47A21F73C55 /* Frameworks */,
@@ -213,6 +212,23 @@
 				37E204EB1B3D16F20017CE84 /* PDTSimpleCalendarViewCell.h */,
 			);
 			path = include;
+			sourceTree = "<group>";
+		};
+		D14516CC2576FA340086E9C0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				37E204D01B3D16330017CE84 /* PDTSimpleCalendar */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		D14516CD2576FA420086E9C0 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				89875F4A1B755A5400CE4345 /* PDTSimpleCalendarTests */,
+				897EED721B756BB300AE9049 /* PDTSimpleCalendarTestsHostApp */,
+			);
+			name = Tests;
 			sourceTree = "<group>";
 		};
 		F918175B0D65709DCD3E8374 /* Pods */ = {
@@ -588,7 +604,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PDTSimpleCalendar/Info.plist;
+				INFOPLIST_FILE = Sources/PDTSimpleCalendar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -606,7 +622,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_OPTIMIZATION_LEVEL = s;
-				INFOPLIST_FILE = PDTSimpleCalendar/Info.plist;
+				INFOPLIST_FILE = Sources/PDTSimpleCalendar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -624,7 +640,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PDTSimpleCalendarTestsHostApp/Info.plist;
+				INFOPLIST_FILE = Tests/PDTSimpleCalendarTestsHostApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.producteev.$(PRODUCT_NAME:rfc1034identifier)";
@@ -636,7 +652,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PDTSimpleCalendarTestsHostApp/Info.plist;
+				INFOPLIST_FILE = Tests/PDTSimpleCalendarTestsHostApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.producteev.$(PRODUCT_NAME:rfc1034identifier)";
@@ -656,7 +672,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PDTSimpleCalendarTests/Info.plist;
+				INFOPLIST_FILE = Tests/PDTSimpleCalendarTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.producteev.$(PRODUCT_NAME:rfc1034identifier)";
@@ -673,7 +689,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PDTSimpleCalendarTests/Info.plist;
+				INFOPLIST_FILE = Tests/PDTSimpleCalendarTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.producteev.$(PRODUCT_NAME:rfc1034identifier)";
