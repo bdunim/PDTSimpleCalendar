@@ -29,6 +29,7 @@
 		89875F4F1B755A5400CE4345 /* PDTSimpleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E204CE1B3D16330017CE84 /* PDTSimpleCalendar.framework */; };
 		89875F551B755A9600CE4345 /* PDTSimpleCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89875F4D1B755A5400CE4345 /* PDTSimpleCalendarTests.m */; };
 		899618041B78EFEF0094E8AB /* PDTSimpleCalendarViewCellSnapshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 899618031B78EFEF0094E8AB /* PDTSimpleCalendarViewCellSnapshotTests.m */; };
+		D1EC52382576C4EE00681830 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC52372576C4DF00681830 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		89875F4D1B755A5400CE4345 /* PDTSimpleCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarTests.m; sourceTree = "<group>"; };
 		899618031B78EFEF0094E8AB /* PDTSimpleCalendarViewCellSnapshotTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarViewCellSnapshotTests.m; sourceTree = "<group>"; };
 		B616135EB8DD4615E3ABC70D /* Pods-PDTSimpleCalendarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDTSimpleCalendarTests.release.xcconfig"; path = "Target Support Files/Pods-PDTSimpleCalendarTests/Pods-PDTSimpleCalendarTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1EC52372576C4DF00681830 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		E9FF3C2F9E294895EEE43482 /* Pods_PDTSimpleCalendarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDTSimpleCalendarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -111,6 +113,7 @@
 		37E204C41B3D16330017CE84 = {
 			isa = PBXGroup;
 			children = (
+				D1EC52372576C4DF00681830 /* Package.swift */,
 				37E204D01B3D16330017CE84 /* PDTSimpleCalendar */,
 				89875F4A1B755A5400CE4345 /* PDTSimpleCalendarTests */,
 				897EED721B756BB300AE9049 /* PDTSimpleCalendarTestsHostApp */,
@@ -213,7 +216,6 @@
 				1E696ABD7478953F517B56D9 /* Pods-PDTSimpleCalendarTests.debug.xcconfig */,
 				B616135EB8DD4615E3ABC70D /* Pods-PDTSimpleCalendarTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -428,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1EC52382576C4EE00681830 /* Package.swift in Sources */,
 				894BD5311B77AA4700DFC64A /* PDTSimpleCalendarViewHeaderSnapshotTests.m in Sources */,
 				894BD52F1B77A2EE00DFC64A /* PDTSimpleCalendarViewControllerSnapshotTests.m in Sources */,
 				89875F551B755A9600CE4345 /* PDTSimpleCalendarTests.m in Sources */,
