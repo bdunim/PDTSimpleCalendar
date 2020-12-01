@@ -4,7 +4,13 @@ PODS:
 DEPENDENCIES:
   - FBSnapshotTestCase/Core (~> 2.0.3)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
 SPEC CHECKSUMS:
   FBSnapshotTestCase: d0eeca6bf87958e088b254396ae66873f971cfb1
 
-COCOAPODS: 0.37.2
+PODFILE CHECKSUM: 082dad70cde9d85c5fb8d618dd879822e5115e3d
+
+COCOAPODS: 1.10.0

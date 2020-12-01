@@ -1,7 +1,11 @@
-source 'https://github.com/CocoaPods/Specs'
+source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '7.0'
+platform :ios, '9.0'
+inhibit_all_warnings!
 
-target :PDTSimpleCalendarTests, :exclusive => true do
+project 'PDTSimpleCalendar'
+use_frameworks!
+
+target 'PDTSimpleCalendarTests' do
     pod 'FBSnapshotTestCase/Core', '~> 2.0.3'
 end
